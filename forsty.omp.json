@@ -18,9 +18,9 @@
             "display_host": true
           },
           "trailing_diamond": "\ue0b0",
-          "template": "<#FFFFFF,transparent>\u256d\u2500</><#003C36,transparent>\ue0b6</> {{ if .SSHSession }}\uf817 {{ end }}{{ .UserName }}@{{ .HostName }} ",
+          "template": "<#FFFFFF,transparent>\u256d\u2500</><#344a53,transparent>\ue0b6</> {{ if .SSHSession }}\uf817 {{ end }}{{ .UserName }}@{{ .HostName }} ",
           "foreground": "#ffffff",
-          "background": "#003C36",
+          "background": "#344a53",
           "type": "session",
           "style": "diamond"
         },
@@ -34,7 +34,7 @@
           "template": " \uf74a  {{ .Path }} ",
           "foreground": "#193549",
           "powerline_symbol": "\ue0b0",
-          "background": "#00fff8",
+          "background": "#b9dff6",
           "type": "path",
           "style": "powerline"
         },
@@ -160,7 +160,7 @@
           "trailing_diamond": "\ue0b4",
           "template": "<parentBackground>\ue0b0</> \ue23a ",
           "foreground": "#193549",
-          "background": "#00fff8",
+          "background": "#b9dff6",
           "type": "exit",
           "style": "diamond",
           "foreground_templates": [
@@ -185,7 +185,7 @@
           "template": " \uf167 {{ .Icon }}{{ if ne .Status \"stopped\" }}{{ .Artist }} - {{ .Track }}{{ end }} ",
           "foreground": "#193549",
           "powerline_symbol": "\ue0b2",
-          "background": "#00fff8",
+          "background": "#b9dff6",
           "type": "ytm",
           "style": "powerline",
           "invert_powerline": true
@@ -234,9 +234,9 @@
             "cache_duration": "none"
           },
           "trailing_diamond": "\ue0b0",
-          "template": "<#FFFFFF,transparent>\u2570\u2500</><#00A192,transparent>\ue0b6</>\uf489 {{ .Name }} ",
+          "template": "<#FFFFFF,transparent>\u2570\u2500</><#b9dff6,transparent>\ue0b6</>\uf489 {{ .Name }} ",
           "foreground": "#193549",
-          "background": "#00fff8",
+          "background": "#b9dff6",
           "type": "shell",
           "style": "diamond"
         }
