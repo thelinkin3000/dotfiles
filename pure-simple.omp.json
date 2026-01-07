@@ -21,7 +21,10 @@
           "template": "{{ .Path }} ",
           "foreground": "#ffffff",
           "type": "path",
-          "style": "powerline"
+          "style": "powerline",
+          "mapped_locations": {
+            "C:\\repos": ""
+          }
         },
         {
           "properties": {
@@ -36,8 +39,8 @@
           "type": "git",
           "style": "powerline",
           "foreground_templates": [
-            "{{ if or (.Working.Changed) (.Staging.Changed) }}#872700{{ end }}",
-            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#872700{{ end }}",
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#e74856{{ end }}",
+            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#e74856{{ end }}",
             "{{ if gt .Ahead 0 }}#2B2D42{{ end }}",
             "{{ if gt .Behind 0 }}#2B2D42{{ end }}"
           ]
