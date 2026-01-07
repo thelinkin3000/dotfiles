@@ -22,8 +22,10 @@
           "foreground": "#ffffff",
           "type": "path",
           "style": "powerline",
-          "mapped_locations": {
-            "C:\\repos": ""
+          "options": {
+            "mapped_locations": {
+              "C:/repos/*": " "
+            }
           }
         },
         {
