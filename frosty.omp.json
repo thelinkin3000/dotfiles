@@ -18,9 +18,9 @@
             "display_host": true
           },
           "trailing_diamond": "\ue0b0",
-          "template": "<#FFFFFF,transparent>\u256d\u2500</><#344a53,transparent>\ue0b6</> {{ if .SSHSession }}\uf817 {{ end }}{{ .UserName }}@{{ .HostName }} ",
+          "template": "<#FFFFFF,transparent>\u256d\u2500</><#324953,transparent>\ue0b6</> {{ if .SSHSession }}\uf817 {{ end }}{{ .UserName }}@{{ .HostName }} ",
           "foreground": "#ffffff",
-          "background": "#344a53",
+          "background": "#324953",
           "type": "session",
           "style": "diamond"
         },
